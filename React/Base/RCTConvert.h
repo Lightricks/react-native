@@ -215,7 +215,7 @@ RCT_CUSTOM_CONVERTER(type, type, [RCT_DEBUG ? [self NSNumber:json] : json getter
   dispatch_once(&onceToken, ^{                            \
     mapping = values;                                     \
   });                                                     \
-  return [RCTConvertEnumValue(#type, mapping, @(default), json) getter]; \
+  return (type)[RCTConvertEnumValue(#type, mapping, @(default), json) getter]; \
 }
 
 /**
@@ -230,7 +230,7 @@ RCT_CUSTOM_CONVERTER(type, type, [RCT_DEBUG ? [self NSNumber:json] : json getter
   dispatch_once(&onceToken, ^{                            \
     mapping = values;                                     \
   });                                                     \
-  return [RCTConvertMultiEnumValue(#type, mapping, @(default), json) getter]; \
+  return (type)[RCTConvertMultiEnumValue(#type, mapping, @(default), json) getter]; \
 }
 
 /**
