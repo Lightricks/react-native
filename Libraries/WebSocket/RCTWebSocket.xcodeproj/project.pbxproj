@@ -17,6 +17,72 @@
 		3DB9106F1C74B1ED00838BBE /* RCTWebSocketObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB9106E1C74B1ED00838BBE /* RCTWebSocketObserver.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B9584B481E815E5F00AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		B9584B4A1E815E5F00AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		B9584B4C1E815E5F00AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		B9584B4E1E815E5F00AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		B9584B501E815E5F00AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		B9584B521E815E5F00AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		B9584B541E815E5F00AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		B9584B561E815E5F00AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+		B9584B581E815E6400AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1338BBDC1B04ACC80064A9C9 /* RCTSRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTSRWebSocket.h; sourceTree = "<group>"; };
 		1338BBDD1B04ACC80064A9C9 /* RCTSRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTSRWebSocket.m; sourceTree = "<group>"; };
@@ -28,6 +94,7 @@
 		3C86DF7B1ADF695F0047B81A /* RCTWebSocketModule.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RCTWebSocketModule.m; sourceTree = "<group>"; tabWidth = 2; };
 		3DB9106D1C74B1ED00838BBE /* RCTWebSocketObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWebSocketObserver.h; sourceTree = "<group>"; };
 		3DB9106E1C74B1ED00838BBE /* RCTWebSocketObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWebSocketObserver.m; sourceTree = "<group>"; };
+		B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = ../../React/React.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -42,6 +109,7 @@
 				3DB9106E1C74B1ED00838BBE /* RCTWebSocketObserver.m */,
 				3C86DF7A1ADF695F0047B81A /* RCTWebSocketModule.h */,
 				3C86DF7B1ADF695F0047B81A /* RCTWebSocketModule.m */,
+				B95845251E80080A00AFF6B0 /* Libraries */,
 				3C86DF471ADF2C930047B81A /* Products */,
 			);
 			indentWidth = 2;
@@ -53,6 +121,29 @@
 			children = (
 				3C86DF461ADF2C930047B81A /* libRCTWebSocket.a */,
 				2D2A28881D9B049200D4039D /* libRCTWebSocket-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95845251E80080A00AFF6B0 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B9584B3E1E815E5F00AFF6B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9584B491E815E5F00AFF6B0 /* libReact.a */,
+				B9584B4B1E815E5F00AFF6B0 /* libReact.a */,
+				B9584B4D1E815E5F00AFF6B0 /* libyoga.a */,
+				B9584B4F1E815E5F00AFF6B0 /* libyoga.a */,
+				B9584B511E815E5F00AFF6B0 /* libcxxreact.a */,
+				B9584B531E815E5F00AFF6B0 /* libcxxreact.a */,
+				B9584B551E815E5F00AFF6B0 /* libjschelpers.a */,
+				B9584B571E815E5F00AFF6B0 /* libjschelpers.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +175,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B9584B591E815E6400AFF6B0 /* PBXTargetDependency */,
 			);
 			name = RCTWebSocket;
 			productName = WebSocket;
@@ -118,6 +210,12 @@
 			mainGroup = 3C86DF3D1ADF2C930047B81A;
 			productRefGroup = 3C86DF471ADF2C930047B81A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B9584B3E1E815E5F00AFF6B0 /* Products */;
+					ProjectRef = B9584B3D1E815E5F00AFF6B0 /* React.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3C86DF451ADF2C930047B81A /* RCTWebSocket */,
@@ -125,6 +223,65 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B9584B491E815E5F00AFF6B0 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = B9584B481E815E5F00AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584B4B1E815E5F00AFF6B0 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = B9584B4A1E815E5F00AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584B4D1E815E5F00AFF6B0 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = B9584B4C1E815E5F00AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584B4F1E815E5F00AFF6B0 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = B9584B4E1E815E5F00AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584B511E815E5F00AFF6B0 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = B9584B501E815E5F00AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584B531E815E5F00AFF6B0 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = B9584B521E815E5F00AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584B551E815E5F00AFF6B0 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = B9584B541E815E5F00AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584B571E815E5F00AFF6B0 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = B9584B561E815E5F00AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D2A28841D9B049200D4039D /* Sources */ = {
@@ -150,6 +307,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9584B591E815E6400AFF6B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = B9584B581E815E6400AFF6B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2D2A288E1D9B049200D4039D /* Debug */ = {

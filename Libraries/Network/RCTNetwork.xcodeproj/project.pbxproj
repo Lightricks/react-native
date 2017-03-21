@@ -21,6 +21,72 @@
 		58B512081A9E6CE300147676 /* RCTNetworking.mm in Sources */ = {isa = PBXBuildFile; fileRef = 58B512071A9E6CE300147676 /* RCTNetworking.mm */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B9584AD41E815E2100AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		B9584AD61E815E2100AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		B9584AD81E815E2100AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		B9584ADA1E815E2100AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		B9584ADC1E815E2100AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		B9584ADE1E815E2100AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		B9584AE01E815E2100AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		B9584AE21E815E2100AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+		B9584AE41E815E2600AFF6B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CBBA2D1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		134E96981BCEB7F800AFFDA1 /* RCTDataRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTDataRequestHandler.h; sourceTree = "<group>"; };
 		134E96991BCEB7F800AFFDA1 /* RCTDataRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTDataRequestHandler.m; sourceTree = "<group>"; };
@@ -36,6 +102,7 @@
 		3D5FA63F1DE4B4790058FD77 /* RCTNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTNetworking.h; sourceTree = "<group>"; };
 		58B511DB1A9E6C8500147676 /* libRCTNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B512071A9E6CE300147676 /* RCTNetworking.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNetworking.mm; sourceTree = "<group>"; };
+		B9584AC91E815E2100AFF6B0 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = ../../React/React.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -54,6 +121,7 @@
 				1372B7361AB03E7B00659ED6 /* RCTNetInfo.m */,
 				3D5FA63F1DE4B4790058FD77 /* RCTNetworking.h */,
 				58B512071A9E6CE300147676 /* RCTNetworking.mm */,
+				B95845431E80082A00AFF6B0 /* Libraries */,
 				58B511DC1A9E6C8500147676 /* Products */,
 			);
 			indentWidth = 2;
@@ -65,6 +133,29 @@
 			children = (
 				58B511DB1A9E6C8500147676 /* libRCTNetwork.a */,
 				2D2A28541D9B044C00D4039D /* libRCTNetwork-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95845431E80082A00AFF6B0 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B9584AC91E815E2100AFF6B0 /* React.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B9584ACA1E815E2100AFF6B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9584AD51E815E2100AFF6B0 /* libReact.a */,
+				B9584AD71E815E2100AFF6B0 /* libReact.a */,
+				B9584AD91E815E2100AFF6B0 /* libyoga.a */,
+				B9584ADB1E815E2100AFF6B0 /* libyoga.a */,
+				B9584ADD1E815E2100AFF6B0 /* libcxxreact.a */,
+				B9584ADF1E815E2100AFF6B0 /* libcxxreact.a */,
+				B9584AE11E815E2100AFF6B0 /* libjschelpers.a */,
+				B9584AE31E815E2100AFF6B0 /* libjschelpers.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +187,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B9584AE51E815E2600AFF6B0 /* PBXTargetDependency */,
 			);
 			name = RCTNetwork;
 			productName = RCTDataManager;
@@ -130,6 +222,12 @@
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511DC1A9E6C8500147676 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B9584ACA1E815E2100AFF6B0 /* Products */;
+					ProjectRef = B9584AC91E815E2100AFF6B0 /* React.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RCTNetwork */,
@@ -137,6 +235,65 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B9584AD51E815E2100AFF6B0 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = B9584AD41E815E2100AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584AD71E815E2100AFF6B0 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = B9584AD61E815E2100AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584AD91E815E2100AFF6B0 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = B9584AD81E815E2100AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584ADB1E815E2100AFF6B0 /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = B9584ADA1E815E2100AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584ADD1E815E2100AFF6B0 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = B9584ADC1E815E2100AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584ADF1E815E2100AFF6B0 /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = B9584ADE1E815E2100AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584AE11E815E2100AFF6B0 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = B9584AE01E815E2100AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9584AE31E815E2100AFF6B0 /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = B9584AE21E815E2100AFF6B0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D2A28501D9B044C00D4039D /* Sources */ = {
@@ -166,6 +323,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9584AE51E815E2600AFF6B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = React;
+			targetProxy = B9584AE41E815E2600AFF6B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2D2A285A1D9B044C00D4039D /* Debug */ = {
